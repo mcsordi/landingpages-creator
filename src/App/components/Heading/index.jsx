@@ -3,7 +3,6 @@ import P from 'prop-types';
 function Heading({
   Head = 'h1',
   children,
-  font,
   size,
   colorDark = false,
   uppercase = false,
@@ -12,7 +11,7 @@ function Heading({
   return (
     <Head
       className={`${weight} ${colorDark ? 'text-white' : 'text-primary'}
-         ${uppercase && `uppercase`} ${font}
+         ${uppercase && `uppercase`} font-serrat
       ${size}  ${size == `text-large` && `md:text-large`} ${size == `text-large` && `text-mediumlarge`} leading-none`}
     >
       {children}
@@ -22,7 +21,7 @@ function Heading({
 Heading.propTypes = {
   Head: P.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']).isRequired,
   children: P.string.isRequired,
-  font: P.oneOf(['font-sans', 'font-serrat']).isRequired,
+
   size: P.string.isRequired,
   colorDark: P.bool,
   uppercase: P.bool,

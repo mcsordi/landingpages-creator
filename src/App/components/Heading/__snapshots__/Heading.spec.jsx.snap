@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading/> should match a snapshot 1`] = `
+<h5
+  class="font-600 text-white
+         uppercase font-serrat
+      text-large  md:text-large text-mediumlarge leading-none"
+>
+  hello
+</h5>
+`;

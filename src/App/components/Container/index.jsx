@@ -1,7 +1,9 @@
 import P from 'prop-types';
 function Container({ children }) {
   return (
-    <div className="flex w-full min-h-screen bg-slate-400">{children}</div>
+    <div className="flex flex-col w-full min-h-screen bg-slate-400">
+      {children}
+    </div>
   );
 }
 
