@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackgroundContainer/> should match a snapshot 1`] = `
+<div>
+  <section
+    class="bg-[#0A1128] flex flex-col w-full min-h-screen"
+  >
+    <div
+      class="text-white relative mx-auto my-auto max-w-[1200px] px-8 py-6"
+    />
+  </section>
+</div>
+`;
