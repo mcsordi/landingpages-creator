@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo/> should match a logo component snapshot 1`] = `
+<span
+  class="text-intermedium font-serrat font-900"
+>
+  LOGO
+</span>
+`;

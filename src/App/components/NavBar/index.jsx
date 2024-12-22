@@ -1,14 +1,14 @@
 import { SlMenu } from 'react-icons/sl';
 import { IoClose } from 'react-icons/io5';
-
 import P from 'prop-types';
 import { useState } from 'react';
+
 function NavBar({ children }) {
   const [display, setDisplay] = useState(false);
   return (
     <>
       <nav
-        className={`${display ? 'flex' : 'hidden'} items-center justify-center flex-col
+        className={`${display ? 'flex' : 'hidden'}   items-center justify-evenly flex-col
         min-h-screen bg-white w-full py-1.5 md:flex md:min-h-0 md:flex-row`}
       >
         {children}
