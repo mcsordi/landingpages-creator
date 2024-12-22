@@ -11,6 +11,6 @@ function ListLinks({ links }) {
   );
 }
 ListLinks.propTypes = {
-  links: P.object,
+  links: P.array,
 };
 export default ListLinks;

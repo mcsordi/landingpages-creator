@@ -9,7 +9,7 @@ function NavBar({ children }) {
     <>
       <nav
         className={`${display ? 'flex' : 'hidden'}   items-center justify-evenly flex-col
-        min-h-screen bg-white w-full py-1.5 md:flex md:min-h-0 md:flex-row`}
+            min-h-screen bg-white w-full py-1.5 md:flex md:min-h-0 md:flex-row`}
       >
         {children}
       </nav>
