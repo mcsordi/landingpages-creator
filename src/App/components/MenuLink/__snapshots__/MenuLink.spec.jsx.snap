@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuLink/> should render MenuLink with underline class 1`] = `
+<a
+  class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+  href="https://www.google.com.br"
+  rel="noreferrer"
+  target="_self"
+/>
+`;

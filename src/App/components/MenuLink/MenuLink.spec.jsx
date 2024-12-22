@@ -20,5 +20,11 @@ describe('<MenuLink/>', () => {
     render(<MenuLink link="https://www.google.com.br">text</MenuLink>);
     const component = screen.getByRole('link');
     expect(component).toHaveClass('hvr-underline-from-center');
+    expect(component).toHaveAttribute('href', 'https://www.google.com.br');
+  });
+  it('should render MenuLink with underline class', () => {
+    render(<MenuLink link="https://www.google.com.br">text</MenuLink>);
+    const component = screen.getByRole('link');
+    expect(component).toMatchSnapshot();
   });
 });
