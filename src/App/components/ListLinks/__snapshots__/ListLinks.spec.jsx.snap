@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListLinks/> should match a snapshot 1`] = `
+Array [
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto1"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto1
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto2"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto2
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto3"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto3
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto4"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto4
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto5"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto5
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto6"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto6
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto7"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto7
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto8"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto8
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto9"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto9
+  </a>,
+  <a
+    class="relative text-primary m-2 py-2 text-xsmall hvr-underline-from-center"
+    href="#texto10"
+    rel="noreferrer"
+    target="_self"
+  >
+    texto10
+  </a>,
+]
+`;

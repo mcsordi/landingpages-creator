@@ -1,7 +1,7 @@
-import links from '../NavBar/mockLinks';
+import P from 'prop-types';
 import MenuLink from '../MenuLink/index';
 
-function ListLinks() {
+function ListLinks({ links }) {
   return (
     <div className="flex flex-col md:flex-row flex-wrap md:max-w-xl">
       {links.map((link, id) => (
@@ -10,4 +10,7 @@ function ListLinks() {
     </div>
   );
 }
+ListLinks.propTypes = {
+  links: P.object,
+};
 export default ListLinks;
