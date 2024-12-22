@@ -8,7 +8,7 @@ describe('<BackgroundContainer/>', () => {
       'bg-white flex flex-col w-full min-h-screen',
     );
     expect(container.container.firstChild.firstChild).toHaveClass(
-      'relative mx-auto my-auto max-w-[1200px] px-8 py-6 text-primary',
+      'relative mx-auto my-auto max-w-[1200px] p-8 text-primary',
     );
   });
   it('should render BackgroundContainer with an image', () => {
