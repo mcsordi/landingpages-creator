@@ -1,14 +1,19 @@
 import P from 'prop-types';
-function BackgroundContainer({ children, darkBg = false, image = false }) {
+function BackgroundContainer({
+  children,
+  darkBg = false,
+  image = false,
+  source,
+}) {
   return (
     <section
-      className={`${darkBg ? `bg-[#0A1128]` : 'bg-white'} overflow-scroll flex flex-col w-full min-h-screen`}
+      className={`${darkBg ? `bg-[#0A1128]` : 'bg-white'} overflow-y-scroll  flex mx-auto my-auto flex-col w-full min-h-screen`}
     >
       {image && (
         <img
           className="  absolute w-screen min-h-screen object-cover max-h-screen"
           alt="Background Container Image"
-          src="./images/main-bg.svg"
+          src={source}
         />
       )}
       <div
@@ -24,5 +29,6 @@ BackgroundContainer.propTypes = {
   children: P.node,
   darkBg: P.bool,
   image: P.bool,
+  source: P.string.isRequired,
 };
 export default BackgroundContainer;

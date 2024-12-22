@@ -3,7 +3,7 @@
 exports[`<BackgroundContainer/> should match a snapshot 1`] = `
 <div>
   <section
-    class="bg-[#0A1128] overflow-scroll flex flex-col w-full min-h-screen"
+    class="bg-[#0A1128] overflow-y-scroll  flex mx-auto my-auto flex-col w-full min-h-screen"
   >
     <div
       class="text-white flex max-h-screen relative max-w-[1200px] my-auto mx-auto p-8"

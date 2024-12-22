@@ -6,7 +6,7 @@ describe('<NavBar/>', () => {
     render(<NavBar></NavBar>);
     const navComponent = screen.getByRole('navigation');
     expect(navComponent)
-      .toHaveClass(`hidden items-center justify-evenly flex-col
+      .toHaveClass(`hidden items-center justify-around flex-col
         min-h-screen bg-white w-full py-1.5 md:flex md:min-h-0 md:flex-row`);
   });
   it('should render NavBar Component with display flex after 1 click', () => {

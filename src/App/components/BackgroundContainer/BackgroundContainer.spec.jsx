@@ -11,8 +11,10 @@ describe('<BackgroundContainer/>', () => {
       'relative mx-auto my-auto max-w-[1200px] p-8 text-primary',
     );
   });
-  it('should render BackgroundContainer with an image', () => {
-    const container = render(<BackgroundContainer image />);
+  it('should render BackgroundContainer with an src image', () => {
+    const container = render(
+      <BackgroundContainer source="./images/main-bg.svg" image />,
+    );
     expect(container.container.firstChild.firstChild).toHaveAttribute(
       'src',
       './images/main-bg.svg',

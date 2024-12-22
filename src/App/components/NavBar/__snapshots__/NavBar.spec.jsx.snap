@@ -3,14 +3,14 @@
 exports[`<NavBar/> should match a snapshot 1`] = `
 <div>
   <nav
-    class="hidden overflow-scroll absolute z-10  items-center justify-evenly flex-col
+    class="hidden justify-around items-center overflow-scroll md:overflow-hidden px-20 fixed z-10  flex-col
             min-h-screen bg-white w-full py-1.5 md:flex md:min-h-0 md:flex-row"
   />
   <div
     class="flex fixed md:hidden mx-auto right-0 p-4 z-30"
   >
     <div
-      class="542 bg-[#0A1128] p-1.5 text-white text-medium cursor-pointer"
+      class="bg-[#0A1128] p-1.5 text-white text-medium cursor-pointer"
     >
       <svg
         fill="currentColor"
